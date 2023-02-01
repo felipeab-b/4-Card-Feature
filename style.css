@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 98%);
+    height: 100vh;
+}
+
+main {
+    font-family: "Poppins";
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20rem;
+}
+
+.text {
+    text-align: center;
+    margin-bottom: 3.5rem;
+}
+
+.text > h1 {
+    color: hsl(234, 12%, 34%);
+    font-weight: 600;
+    font-size: 2.24rem;
+}
+
+.text .sub {
+    font-size: 2.24rem;
+    font-weight: 200;
+    color: hsl(234, 12%, 34%);
+    position: relative;
+    top: 0.3rem;
+}
+
+.text .desc {
+    color: hsl(229, 6%, 66%);
+    margin-top: 1rem;
+}
+
+.cards {
+    display: flex;
+}
+
+/* red card */
+.red {
+    background-color: #FFF;
+    box-shadow: 0.5em 0.5em 1em rgba(12, 24, 37, 0.173);
+    border-top: hsl(0, 78%, 62%) solid 5px;
+    border-radius: 5px;
+    padding: 2rem;
+    width: 22rem;
+    height: fit-content;
+    position: relative;
+    left: 33rem;
+}
+
+.red > h2 {
+    color: hsl(234, 12%, 34%);
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.red > p {
+    color: hsl(229, 6%, 66%);
+    margin-bottom: 2rem;
+}
+
+.red > div {
+    display: flex;
+    justify-content: right;
+}
+
+/* dark blue card */
+.dark-blue {
+    background-color: #FFF;
+    box-shadow: 0.5em 0.5em 1em rgba(12, 24, 37, 0.173);
+    border-top: hsl(212, 86%, 64%) solid 5px;
+    border-radius: 5px;
+    padding: 2rem;
+    width: 22rem;
+    height: fit-content;
+    position: relative;
+    right: 9rem;
+    top: 10rem;
+}
+
+.dark-blue > h2 {
+    color: hsl(234, 12%, 34%);
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.dark-blue > p {
+    color: hsl(229, 6%, 66%);
+    margin-bottom: 3rem;
+}
+
+.dark-blue > div {
+    display: flex;
+    justify-content: right;
+}
+
+/* light blue card */
+.light-blue {
+    background-color: #FFF;
+    box-shadow: 0.5em 0.5em 1em rgba(12, 24, 37, 0.173);
+    border-top: hsl(180, 62%, 55%) solid 5px;
+    border-radius: 5px;
+    padding: 2rem;
+    width: 22rem;
+    height: fit-content;
+    position: relative;
+    top: 10rem;
+    right: 13rem;
+}
+
+.light-blue > h2 {
+    color: hsl(234, 12%, 34%);
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.light-blue > p {
+    color: hsl(229, 6%, 66%);
+    margin-bottom: 3rem;
+}
+
+.light-blue > div {
+    display: flex;
+    justify-content: right;
+}
+/* orange card */
+.yellow {
+    background-color: #FFF;
+    box-shadow: 0.5em 0.5em 1em rgba(12, 24, 37, 0.173);
+    border-top: hsl(34, 97%, 64%) solid 5px;
+    border-radius: 5px;
+    padding: 2rem;
+    width: 22rem;
+    height: fit-content;
+    position: relative;
+    top: 19rem;
+    right: 11rem;
+}
+
+.yellow > h2 {
+    color: hsl(234, 12%, 34%);
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.yellow > p {
+    color: hsl(229, 6%, 66%);
+    margin-bottom: 3rem;
+}
+
+.yellow > div {
+    display: flex;
+    justify-content: right;
+}
+
